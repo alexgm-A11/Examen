@@ -4,12 +4,15 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class AlumnoDTO {
+public class DetalleDTO {
     private Long id;
-    private String nombres;
-    private String direccion;
-    private String telefono;
+    private Long ventaId;
+    private Long productoId;
+    private BigDecimal precio;
 }

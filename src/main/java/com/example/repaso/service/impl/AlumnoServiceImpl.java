@@ -32,6 +32,11 @@ public class AlumnoServiceImpl implements AlumnoService {
 
     @Override
     public AlumnoDTO update(Long aLong, AlumnoDTO alumnoDTO) throws ServiceException {
+        try {
+
+        }catch (Exception e){
+            throw new ServiceException("Error al actualizar Alumno",e);
+        }
         return null;
     }
 

@@ -50,7 +50,7 @@ public class CategoriaServiceImpl implements CategoriaService {
     @Override
     public CategoriaDTO findById(Long aLong) throws ServiceException {
         try {
-            Categoria categoria = categoriaRepository.findById(aLong).orElseThrow(() -> new ResourceNotFoundException("Categoria no encontrada"));
+            Categoria categoria = categoriaRepository.findById(aLong).orElseThrow(() -> new ResourceNotFoundException("Categoria con ID "+aLong+" no fue encontrada"));
             return categoriaMapper.toDTO(categoria);
         } catch (ResourceNotFoundException e) {
             throw (e);
@@ -63,7 +63,7 @@ public class CategoriaServiceImpl implements CategoriaService {
     public void deleteById(Long aLong) throws ServiceException {
         try {
             if(!categoriaRepository.findById(aLong).isPresent()){
-                throw new ResourceNotFoundException("Categoria no encontrada");
+                throw new ResourceNotFoundException("Categoria con ID "+aLong+" no fue encontrada");
             }
             categoriaRepository.deleteById(aLong);
         }catch (ResourceNotFoundException e) {
