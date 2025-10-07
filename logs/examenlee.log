@@ -1,0 +1,261 @@
+2025-10-06T13:27:47.925-05:00  INFO 12452 --- [repaso] [main] com.example.repaso.RepasoApplication     : Starting RepasoApplication using Java 21.0.8 with PID 12452 (C:\Users\alexg\Pictures\Examen2\ExamenGuillen\target\classes started by alexg in C:\Users\alexg\Pictures\Examen2\ExamenGuillen)
+2025-10-06T13:27:47.931-05:00  INFO 12452 --- [repaso] [main] com.example.repaso.RepasoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-06T13:27:49.720-05:00  INFO 12452 --- [repaso] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-06T13:27:49.798-05:00  INFO 12452 --- [repaso] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 4 JPA repository interfaces.
+2025-10-06T13:27:50.570-05:00  INFO 12452 --- [repaso] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-10-06T13:27:50.597-05:00  INFO 12452 --- [repaso] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-06T13:27:50.598-05:00  INFO 12452 --- [repaso] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-06T13:27:50.719-05:00  INFO 12452 --- [repaso] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-06T13:27:50.720-05:00  INFO 12452 --- [repaso] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2698 ms
+2025-10-06T13:27:51.083-05:00  INFO 12452 --- [repaso] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-06T13:27:51.167-05:00  INFO 12452 --- [repaso] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-10-06T13:27:51.208-05:00  INFO 12452 --- [repaso] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-06T13:27:51.673-05:00  INFO 12452 --- [repaso] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-06T13:27:51.747-05:00  INFO 12452 --- [repaso] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-06T13:27:52.276-05:00  INFO 12452 --- [repaso] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@3df77dfa
+2025-10-06T13:27:52.278-05:00  INFO 12452 --- [repaso] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-06T13:27:53.026-05:00  INFO 12452 --- [repaso] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-06T13:27:54.027-05:00  INFO 12452 --- [repaso] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-06T13:27:54.893-05:00  INFO 12452 --- [repaso] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-06T13:27:57.784-05:00  INFO 12452 --- [repaso] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-10-06T13:27:57.797-05:00  INFO 12452 --- [repaso] [main] com.example.repaso.RepasoApplication     : Started RepasoApplication in 10.69 seconds (process running for 12.121)
+2025-10-06T13:28:55.410-05:00  INFO 12452 --- [repaso] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-06T13:28:55.410-05:00  INFO 12452 --- [repaso] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-06T13:28:55.411-05:00  INFO 12452 --- [repaso] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-06T13:31:34.079-05:00  INFO 12452 --- [repaso] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-06T13:31:34.083-05:00  INFO 12452 --- [repaso] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-06T13:31:34.087-05:00  INFO 12452 --- [repaso] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-06T13:31:34.090-05:00  INFO 12452 --- [repaso] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-06T13:31:34.100-05:00  INFO 12452 --- [repaso] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-06T13:31:57.307-05:00  INFO 4352 --- [repaso] [main] com.example.repaso.RepasoApplication     : Starting RepasoApplication using Java 21.0.8 with PID 4352 (C:\Users\alexg\Pictures\Examen2\ExamenGuillen\target\classes started by alexg in C:\Users\alexg\Pictures\Examen2\ExamenGuillen)
+2025-10-06T13:31:57.310-05:00  INFO 4352 --- [repaso] [main] com.example.repaso.RepasoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-06T13:31:58.379-05:00  INFO 4352 --- [repaso] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-06T13:31:58.463-05:00  INFO 4352 --- [repaso] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 4 JPA repository interfaces.
+2025-10-06T13:31:58.622-05:00  INFO 13448 --- [repaso] [main] com.example.repaso.RepasoApplication     : Starting RepasoApplication using Java 21.0.8 with PID 13448 (C:\Users\alexg\Pictures\Examen2\ExamenGuillen\target\classes started by alexg in C:\Users\alexg\Pictures\Examen2\ExamenGuillen)
+2025-10-06T13:31:58.625-05:00  INFO 13448 --- [repaso] [main] com.example.repaso.RepasoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-06T13:31:59.186-05:00  INFO 4352 --- [repaso] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-10-06T13:31:59.219-05:00  INFO 4352 --- [repaso] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-06T13:31:59.220-05:00  INFO 4352 --- [repaso] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-06T13:31:59.344-05:00  INFO 4352 --- [repaso] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-06T13:31:59.345-05:00  INFO 4352 --- [repaso] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1968 ms
+2025-10-06T13:31:59.786-05:00  INFO 4352 --- [repaso] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-06T13:31:59.854-05:00  INFO 4352 --- [repaso] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-10-06T13:31:59.891-05:00  INFO 4352 --- [repaso] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-06T13:31:59.966-05:00  INFO 13448 --- [repaso] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-06T13:32:00.073-05:00  INFO 13448 --- [repaso] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 4 JPA repository interfaces.
+2025-10-06T13:32:00.402-05:00  INFO 4352 --- [repaso] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-06T13:32:00.455-05:00  INFO 4352 --- [repaso] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-06T13:32:00.927-05:00  INFO 13448 --- [repaso] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-10-06T13:32:00.950-05:00  INFO 13448 --- [repaso] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-06T13:32:00.950-05:00  INFO 13448 --- [repaso] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-06T13:32:01.024-05:00  INFO 4352 --- [repaso] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@3dde5f38
+2025-10-06T13:32:01.026-05:00  INFO 4352 --- [repaso] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-06T13:32:01.029-05:00  INFO 13448 --- [repaso] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-06T13:32:01.029-05:00  INFO 13448 --- [repaso] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2346 ms
+2025-10-06T13:32:01.403-05:00  INFO 4352 --- [repaso] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-06T13:32:01.476-05:00  INFO 13448 --- [repaso] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-06T13:32:01.526-05:00  INFO 13448 --- [repaso] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-10-06T13:32:01.560-05:00  INFO 13448 --- [repaso] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-06T13:32:02.227-05:00  INFO 13448 --- [repaso] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-06T13:32:02.307-05:00  INFO 13448 --- [repaso] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-06T13:32:02.311-05:00  INFO 4352 --- [repaso] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-06T13:32:02.869-05:00  INFO 13448 --- [repaso] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@5fa0141f
+2025-10-06T13:32:02.876-05:00  INFO 13448 --- [repaso] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-06T13:32:03.088-05:00  INFO 4352 --- [repaso] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-06T13:32:03.446-05:00  INFO 13448 --- [repaso] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-06T13:32:04.336-05:00  INFO 13448 --- [repaso] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-06T13:32:04.496-05:00  INFO 13448 --- [repaso] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-06T13:32:04.885-05:00  INFO 4352 --- [repaso] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-10-06T13:32:04.897-05:00  INFO 4352 --- [repaso] [main] com.example.repaso.RepasoApplication     : Started RepasoApplication in 8.235 seconds (process running for 8.724)
+2025-10-06T13:32:05.400-05:00  WARN 13448 --- [repaso] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-10-06T13:32:05.401-05:00  INFO 13448 --- [repaso] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-06T13:32:05.407-05:00  INFO 13448 --- [repaso] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-06T13:32:05.417-05:00  INFO 13448 --- [repaso] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-06T13:32:05.437-05:00  INFO 13448 --- [repaso] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-06T13:32:05.458-05:00 ERROR 13448 --- [repaso] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2025-10-06T13:32:12.912-05:00  INFO 4352 --- [repaso] [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-06T13:32:12.912-05:00  INFO 4352 --- [repaso] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-06T13:32:12.913-05:00  INFO 4352 --- [repaso] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-06T13:33:43.659-05:00  INFO 4352 --- [repaso] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-06T13:33:43.663-05:00  INFO 4352 --- [repaso] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-06T13:33:43.667-05:00  INFO 4352 --- [repaso] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-06T13:33:43.669-05:00  INFO 4352 --- [repaso] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-06T13:33:43.680-05:00  INFO 4352 --- [repaso] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-06T13:36:15.832-05:00  INFO 16372 --- [repaso] [main] com.example.repaso.RepasoApplication     : Starting RepasoApplication using Java 21.0.8 with PID 16372 (C:\Users\alexg\Pictures\Examen2\ExamenGuillen\target\classes started by alexg in C:\Users\alexg\Pictures\Examen2\ExamenGuillen)
+2025-10-06T13:36:15.836-05:00  INFO 16372 --- [repaso] [main] com.example.repaso.RepasoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-06T13:36:18.349-05:00  INFO 16372 --- [repaso] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-06T13:36:18.429-05:00  INFO 16372 --- [repaso] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 4 JPA repository interfaces.
+2025-10-06T13:36:19.791-05:00  INFO 16372 --- [repaso] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-10-06T13:36:19.805-05:00  INFO 16372 --- [repaso] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-06T13:36:19.805-05:00  INFO 16372 --- [repaso] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-06T13:36:19.888-05:00  INFO 16372 --- [repaso] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-06T13:36:19.888-05:00  INFO 16372 --- [repaso] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3916 ms
+2025-10-06T13:36:20.834-05:00  INFO 16372 --- [repaso] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-06T13:36:21.191-05:00  INFO 16372 --- [repaso] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-10-06T13:36:21.335-05:00  INFO 16372 --- [repaso] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-06T13:36:22.088-05:00  INFO 16372 --- [repaso] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-06T13:36:22.252-05:00  INFO 16372 --- [repaso] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-06T13:36:22.817-05:00  INFO 16372 --- [repaso] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@6f3b13d0
+2025-10-06T13:36:22.819-05:00  INFO 16372 --- [repaso] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-06T13:36:23.490-05:00  INFO 16372 --- [repaso] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-06T13:36:24.390-05:00  INFO 16372 --- [repaso] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-06T13:36:24.535-05:00  INFO 16372 --- [repaso] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-06T13:36:26.592-05:00  INFO 16372 --- [repaso] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-10-06T13:36:26.603-05:00  INFO 16372 --- [repaso] [main] com.example.repaso.RepasoApplication     : Started RepasoApplication in 11.598 seconds (process running for 12.366)
+2025-10-06T13:36:31.017-05:00  INFO 16372 --- [repaso] [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-06T13:36:31.017-05:00  INFO 16372 --- [repaso] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-06T13:36:31.019-05:00  INFO 16372 --- [repaso] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-06T13:40:51.043-05:00  INFO 16372 --- [repaso] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-06T13:40:51.048-05:00  INFO 16372 --- [repaso] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-06T13:40:51.052-05:00  INFO 16372 --- [repaso] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-06T13:40:51.055-05:00  INFO 16372 --- [repaso] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-06T13:40:51.064-05:00  INFO 16372 --- [repaso] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-06T13:45:03.237-05:00  INFO 5872 --- [repaso] [main] com.example.repaso.RepasoApplication     : Starting RepasoApplication using Java 21.0.8 with PID 5872 (C:\Users\alexg\Pictures\Examen2\ExamenGuillen\target\classes started by alexg in C:\Users\alexg\Pictures\Examen2\ExamenGuillen)
+2025-10-06T13:45:03.243-05:00  INFO 5872 --- [repaso] [main] com.example.repaso.RepasoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-06T13:45:04.919-05:00  INFO 5872 --- [repaso] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-06T13:45:04.996-05:00  INFO 5872 --- [repaso] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 4 JPA repository interfaces.
+2025-10-06T13:45:06.644-05:00  INFO 5872 --- [repaso] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-10-06T13:45:06.658-05:00  INFO 5872 --- [repaso] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-06T13:45:06.659-05:00  INFO 5872 --- [repaso] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-06T13:45:06.746-05:00  INFO 5872 --- [repaso] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-06T13:45:06.747-05:00  INFO 5872 --- [repaso] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3448 ms
+2025-10-06T13:45:07.885-05:00  INFO 5872 --- [repaso] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-06T13:45:07.986-05:00  INFO 5872 --- [repaso] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-10-06T13:45:08.017-05:00  INFO 5872 --- [repaso] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-06T13:45:08.658-05:00  INFO 5872 --- [repaso] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-06T13:45:08.862-05:00  INFO 5872 --- [repaso] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-06T13:45:09.428-05:00  INFO 5872 --- [repaso] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@284d4885
+2025-10-06T13:45:09.430-05:00  INFO 5872 --- [repaso] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-06T13:45:10.067-05:00  INFO 5872 --- [repaso] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-06T13:45:10.913-05:00  INFO 5872 --- [repaso] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-06T13:45:11.061-05:00  INFO 5872 --- [repaso] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-06T13:45:13.189-05:00  INFO 5872 --- [repaso] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-10-06T13:45:13.203-05:00  INFO 5872 --- [repaso] [main] com.example.repaso.RepasoApplication     : Started RepasoApplication in 10.603 seconds (process running for 11.009)
+2025-10-06T13:45:18.182-05:00  INFO 5872 --- [repaso] [http-nio-9090-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-06T13:45:18.182-05:00  INFO 5872 --- [repaso] [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-06T13:45:18.183-05:00  INFO 5872 --- [repaso] [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-06T13:53:24.589-05:00  INFO 5872 --- [repaso] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-06T13:53:24.592-05:00  INFO 5872 --- [repaso] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-06T13:53:24.595-05:00  INFO 5872 --- [repaso] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-06T13:53:24.597-05:00  INFO 5872 --- [repaso] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-06T13:53:24.604-05:00  INFO 5872 --- [repaso] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-06T14:03:11.585-05:00  INFO 10792 --- [repaso] [main] com.example.repaso.RepasoApplication     : Starting RepasoApplication using Java 21.0.8 with PID 10792 (C:\Users\alexg\Pictures\Examen2\ExamenGuillen\target\classes started by alexg in C:\Users\alexg\Pictures\Examen2\ExamenGuillen)
+2025-10-06T14:03:11.588-05:00  INFO 10792 --- [repaso] [main] com.example.repaso.RepasoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-06T14:03:13.859-05:00  INFO 10792 --- [repaso] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-06T14:03:13.943-05:00  INFO 10792 --- [repaso] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 4 JPA repository interfaces.
+2025-10-06T14:03:15.832-05:00  INFO 10792 --- [repaso] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-10-06T14:03:15.859-05:00  INFO 10792 --- [repaso] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-06T14:03:15.860-05:00  INFO 10792 --- [repaso] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-06T14:03:15.968-05:00  INFO 10792 --- [repaso] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-06T14:03:15.968-05:00  INFO 10792 --- [repaso] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4331 ms
+2025-10-06T14:03:16.326-05:00  INFO 10792 --- [repaso] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-06T14:03:16.392-05:00  INFO 10792 --- [repaso] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-10-06T14:03:16.428-05:00  INFO 10792 --- [repaso] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-06T14:03:17.203-05:00  INFO 10792 --- [repaso] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-06T14:03:17.272-05:00  INFO 10792 --- [repaso] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-06T14:03:17.796-05:00  INFO 10792 --- [repaso] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@44bbb7c6
+2025-10-06T14:03:17.802-05:00  INFO 10792 --- [repaso] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-06T14:03:18.454-05:00  INFO 10792 --- [repaso] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-06T14:03:19.373-05:00  INFO 10792 --- [repaso] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-06T14:03:19.516-05:00  INFO 10792 --- [repaso] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-06T14:03:20.368-05:00  INFO 10792 --- [repaso] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-10-06T14:03:20.379-05:00  INFO 10792 --- [repaso] [main] com.example.repaso.RepasoApplication     : Started RepasoApplication in 9.364 seconds (process running for 9.817)
+2025-10-06T14:03:25.509-05:00  INFO 10792 --- [repaso] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-06T14:03:25.510-05:00  INFO 10792 --- [repaso] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-06T14:03:25.511-05:00  INFO 10792 --- [repaso] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-06T15:16:58.782-05:00  WARN 10792 --- [repaso] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=43m24s69ms699µs600ns).
+2025-10-06T15:17:31.468-05:00  INFO 10792 --- [repaso] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-06T15:17:31.471-05:00  INFO 10792 --- [repaso] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-06T15:17:31.475-05:00  INFO 10792 --- [repaso] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-06T15:17:31.477-05:00  INFO 10792 --- [repaso] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-06T15:17:31.483-05:00  INFO 10792 --- [repaso] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-06T19:39:07.875-05:00  INFO 3468 --- [repaso] [main] com.example.repaso.RepasoApplication     : Starting RepasoApplication using Java 21.0.8 with PID 3468 (C:\Users\alexg\Pictures\Examen2\ExamenGuillen\target\classes started by alexg in C:\Users\alexg\Pictures\Examen2\ExamenGuillen)
+2025-10-06T19:39:07.877-05:00  INFO 3468 --- [repaso] [main] com.example.repaso.RepasoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-06T19:39:08.852-05:00  INFO 3468 --- [repaso] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-06T19:39:08.944-05:00  INFO 3468 --- [repaso] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 4 JPA repository interfaces.
+2025-10-06T19:39:09.644-05:00  INFO 3468 --- [repaso] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-10-06T19:39:09.660-05:00  INFO 3468 --- [repaso] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-06T19:39:09.661-05:00  INFO 3468 --- [repaso] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-06T19:39:09.722-05:00  INFO 3468 --- [repaso] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-06T19:39:09.722-05:00  INFO 3468 --- [repaso] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1787 ms
+2025-10-06T19:39:10.000-05:00  INFO 3468 --- [repaso] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-06T19:39:10.061-05:00  INFO 3468 --- [repaso] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-10-06T19:39:10.104-05:00  INFO 3468 --- [repaso] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-06T19:39:10.524-05:00  INFO 3468 --- [repaso] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-06T19:39:10.566-05:00  INFO 3468 --- [repaso] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-06T19:39:11.034-05:00  INFO 3468 --- [repaso] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@3ed7dd70
+2025-10-06T19:39:11.037-05:00  INFO 3468 --- [repaso] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-06T19:39:11.389-05:00  INFO 3468 --- [repaso] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-06T19:39:12.304-05:00  INFO 3468 --- [repaso] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-06T19:39:12.450-05:00  INFO 3468 --- [repaso] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-06T19:39:15.304-05:00  INFO 3468 --- [repaso] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-10-06T19:39:15.327-05:00  INFO 3468 --- [repaso] [main] com.example.repaso.RepasoApplication     : Started RepasoApplication in 8.186 seconds (process running for 12.192)
+2025-10-06T19:41:18.022-05:00  INFO 3468 --- [repaso] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-06T19:41:18.033-05:00  INFO 3468 --- [repaso] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-06T19:41:18.045-05:00  INFO 3468 --- [repaso] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-06T19:41:18.052-05:00  INFO 3468 --- [repaso] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-06T19:41:18.078-05:00  INFO 3468 --- [repaso] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
