@@ -11,10 +11,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class ClienteDTO {
-    private Long idcliente;
-    private String telefono;
+public class ColaboradorDTO {
+    private Long idcolaborador;
+    private String nif;
+    private String nombre;
     private String domicilio;
-    private String direccion;
-    private String razonsocial;
+    private String telefono;
+    private String banco;
+    private String numcuenta;
 }

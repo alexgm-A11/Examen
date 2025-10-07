@@ -6,21 +6,22 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 @Builder
 @Entity
-@Table(name="TBL_CLIENTES")
+@Table(name = "TBL_CLIENTE")
 public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ID")
-    private Long id;
-    @Column(name = "NOMBRES", unique = true, nullable = false, length = 45)
-    private String nombres;
-    @Column(name = "DIRECCION", unique = true, nullable = false, length = 45)
-    private String direccion;
-    @Column(name = "TELEFONO", unique = true, nullable = false, length = 9)
+    @Column(name = "IDCLIENTE")
+    private Long idcliente;
+    @Column(name = "TELEFONO", length = 15)
     private String telefono;
+    @Column(name = "DOMICILIO", length = 150)
+    private String domicilio;
+    @Column(name = "RAZONSOCIAL", length = 200)
+    private String razonsocial;
 }

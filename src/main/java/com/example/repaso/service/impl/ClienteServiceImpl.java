@@ -3,7 +3,6 @@ package com.example.repaso.service.impl;
 import com.example.repaso.controller.exceptions.ResourceNotFoundException;
 import com.example.repaso.dto.ClienteDTO;
 import com.example.repaso.entity.Cliente;
-import com.example.repaso.entity.Product;
 import com.example.repaso.mappers.ClienteMapper;
 import com.example.repaso.repository.ClienteRepository;
 import com.example.repaso.service.service.ClienteService;
@@ -20,6 +19,7 @@ public class ClienteServiceImpl implements ClienteService {
         this.clienteRepository = clienteRepository;
         this.clienteMapper = clienteMapper;
     }
+
     @Override
     public ClienteDTO create(ClienteDTO clienteDTO) throws ServiceException {
         try {
@@ -35,9 +35,9 @@ public class ClienteServiceImpl implements ClienteService {
     public ClienteDTO update(Long aLong, ClienteDTO clienteDTO) throws ServiceException {
         try {
             Cliente cliente1 = clienteRepository.findById(aLong).orElseThrow(() -> new ServiceException("No existe el cliente"));
-            cliente1.setNombres(clienteDTO.getNombre());
-            cliente1.setDireccion(clienteDTO.getDireccion());
             cliente1.setTelefono(clienteDTO.getTelefono());
+            cliente1.setDomicilio(clienteDTO.getDomicilio());
+            cliente1.setRazonsocial(clienteDTO.getRazonsocial());
             return clienteMapper.toDTO(clienteRepository.save(cliente1));
         } catch (ResourceNotFoundException e) {
             throw (e);
